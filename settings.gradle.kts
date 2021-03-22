@@ -1,1 +1,5 @@
-include ':checks', ':library', ':app'
+include(
+    ":checks",
+    ":library",
+    ":app"
+)
